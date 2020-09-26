@@ -17,8 +17,9 @@ skills varchar(255)
 );
 
 ## Run the application
-From the directory with the file run the following command:
-go run main.go
+From the directory with the file run the following commands:
+go build *.go
+go run *.go
 
 ## Load in some data
 POST to http:localhost:8081/employees with Body:

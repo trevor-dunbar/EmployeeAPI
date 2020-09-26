@@ -2,7 +2,7 @@
 A GO API that connects to a MySQL DB to store Employee Data
 
 # Set up
-Create a connection in MySQL with username: root an password:password OR change the connection string in the sql.Open statement in the main method.
+Create a local connection in MySQL (127.0.0.1:3306) with username: root an password:password OR change the connection string in the sql.Open statement in the main method.
 
 ## Create Database
 CREATE DATABASE employees;

@@ -17,7 +17,7 @@ skills varchar(255)
 );
 
 ## Run the application
-From the directory with the file run the following commands:
+From the directory with the files run the following commands:
 go build *.go
 go run *.go
 
